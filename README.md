@@ -1,21 +1,64 @@
 # SoK: After Decades of Web Tracker Detection, What’s Next?
 
+# --> Will be made available on ZENODO after review.  
+
 ## Abstract
 Web tracking is an omnipresent phenomenon in today's web, affecting users in their day-to-day lives. Filter lists and blockers were invented to detect trackers and to protect users. Due to limitations of said tools, researchers developed web tracker detectors to replace them. 
-No review constructed a universal perspective and classification of web tracker detectors until now. Past reviews focused either on the field as a whole or on web tracking techniques. In this SoK paper, we present the most comprehensive study on web tracker detection by systematizing and synthesizing the available knowledge. We conduct a systematic review, resulting in 59 primary and 16 supplementary studies out of a corpus of 832 papers. Based on these findings we suggest a taxonomy, observe and evaluate trends, propose open research gaps, and recommendations with which we aim to lay the foundations for future web tracker detection research. In addition, we conduct a limited reproducibility study to assess the validity of past studies and highlight emerging problems in this field. 
+No review constructed a universal perspective and classification of web tracker detectors until now. Past reviews focused either on the field as a whole or on web tracking techniques. In this SoK paper, we present the most comprehensive study on web tracker detection by systematizing and synthesizing the available knowledge. We conduct a systematic review, resulting in 59 primary and 16 supplementary studies out of a corpus of 832 papers. Based on these findings we suggest a taxonomy, observe and evaluate trends, propose open research gaps, and recommendations with which we aim to lay the foundations for future web tracker detection research. In addition, we conduct a limited reproducibility study to assess the validity of past studies and highlight emerging problems in this field.
 
 ## Repository Structure
 
 The repository is organized to mirror the methodological workflow of the SoK paper. 
-Rather than treating the systematic review as a single opaque output, we separate 
-the intermediate research products that connect the paper’s methodology to its final claims.
-
 At a high level, the repository contains directories and files corresponding to the 
 major phases of our methodology. These materials may include the study corpus, screening 
 and eligibility records, data extraction sheets, coding and classification resources, 
 taxonomy artifacts, figures, and supplementary notes. Together, they 
-document how the evidence base was constructed and how individual studies were translated 
-into the dimensions used in the systematization.
+document how the evidence base was constructed. 
+
+#### Excel Processor
+After exporting all the results from the digital libraries to excel sheets, we
+run a simple deduplication script to remove duplicated entries. 
+
+#### Figures
+Here are all the final figures used in our SoK paper. 
+
+#### List of artifacts
+Here is an excel sheet that contains links to the available artifacts of the 
+primary studies that have been examined in the SoK paper. 
+
+#### Lit Review Results
+This directory is structured according to the phases of our methodology (see 
+image in figures folder, SoK Review Figure).
+
+- **lit_review_results/1-identification_phase** contains the raw data, i.e., the exports
+from the digital libraries and the compiled review_reports that were then used by
+the reviewers.
+
+- **lit_review_results/2-screening_phase** contains the excel sheets from both
+reviewer A and B and a summary of their decisions and the final decision. 
+
+#### PETS paper crawler
+A simple crawler can be found here, one for results from 2025 and one for before. 
+In addition, a script to execute the pre-defined search string. 
+
+## Security/Privacy Issues and Ethical Concerns 
+This artifact accompanies our SoK paper and primarily consists of documentation 
+and analysis materials. The artifact does not contain exploits, malware samples, 
+vulnerable software, or code that disables or modifies security mechanisms on the
+evaluator’s system. As such, evaluating or inspecting the artifact does not 
+require elevated privileges, modification of operating system protections, 
+or interaction with potentially harmful binaries.
+
+From a privacy perspective, the artifact does not contain personal data, user 
+tracking data, or datasets derived from human subjects. The materials are based 
+exclusively on publicly available academic publications and publicly accessible 
+documentation of web tracking detection techniques. Consequently, no identifiable 
+information about individuals is collected, processed, or distributed as part of 
+this artifact.
+
+All in all, we are not aware of any security, privacy, or ethical risks associated with 
+inspecting or reusing the materials provided in this artifact beyond the standard 
+considerations involved in handling research data and documentation. 
 
 ## Installation Guide
 
@@ -147,4 +190,23 @@ Title ("web track.*", "ad blocker", "first.*party.*track.*",
     "browser fingerprinting",
     "web tracker detection") OR Keywords ("web tracker detection", "web tracker, "web tracking",
     "web privacy", "web privacy measurement") AND NOT ("eye.*", "blockchain")
+```
+
+## Reference
+
+```text
+@INPROCEEDINGS {sok-tracker-detection,
+author = { Rieder, Wolf and Raschke, Philip and Cory, Thomas and Sechting, Christian René
+ and Kumar, Aditya and Küpper, Axel},
+booktitle = { 2026 IEEE Symposium on Security and Privacy (SP) },
+title = {{ SoK: After Decades of Web Tracker Detection, What’s Next?}},
+year = {2026},
+volume = {},
+ISSN = {},
+pages = {},
+doi = {},
+url = {},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+}
 ```
