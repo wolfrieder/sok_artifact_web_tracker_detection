@@ -23,8 +23,8 @@ run a simple deduplication script to remove duplicated entries.
 Here are all the final figures used in our SoK paper. 
 
 #### List of artifacts
-Here is an excel sheet that contains links to the available artifacts of the 
-primary studies that have been examined in the SoK paper. 
+Here is an excel sheet that contains links to the available artifacts (code and datasets)
+of the primary studies that have been examined in the SoK paper.  
 
 #### Lit Review Results
 This directory is structured according to the phases of our methodology (see 
