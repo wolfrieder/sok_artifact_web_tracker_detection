@@ -24,7 +24,13 @@ Here are all the final figures used in our SoK paper.
 
 #### List of artifacts
 Here is an excel sheet that contains links to the available artifacts (code and datasets)
-of the primary studies that have been examined in the SoK paper.  
+of the primary studies that have been examined in the SoK paper. Note that our
+limited reproducibility experiments (as stated in Section 8) only used the original
+artifacts from the authors and only if they were functional. These artifacts are not
+included here with our artifact, but links can be found in the excel sheet. 
+We only conducted the original experiments for the best performing model that 
+were defined by the authors in their repositories, i.e., we did not create new 
+experiments, datasets, or code. The computed scores can be found in Section 8.  
 
 #### Lit Review Results
 This directory is structured according to the phases of our methodology (see 
