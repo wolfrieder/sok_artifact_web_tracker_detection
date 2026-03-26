@@ -2,6 +2,7 @@
 
 Each study published their artifacts. 
 We uploaded additional files that helped us to set up the repositories. 
+Artifacts that already had Dockerfiles or that were reproducible, are not included in this directory. 
 
 We reproduce the findings using a server with an AMD
 EPYC 7713 (64-cores, 128-threads), 256GB RAM, two
